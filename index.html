@@ -493,7 +493,7 @@ function updateEnemies(frame) {
 
   // 다이브봄 (편대 공격)
   enemyDiveTimer++;
-  var diveInterval = Math.max(60, 180 - stage * 15);
+  var diveInterval = Math.max(100, 260 - stage * 15);
   if (enemyDiveTimer > diveInterval && aliveNonDiving.length > 0 && !bossActive) {
     enemyDiveTimer = 0;
     var diver = aliveNonDiving[Math.floor(Math.random() * aliveNonDiving.length)];
@@ -509,7 +509,7 @@ function updateEnemies(frame) {
   for (var i = enemies.length-1; i >= 0; i--) {
     var e = enemies[i];
     if (!e.diveBomb) continue;
-    e.diveProgress += 0.018 + stage * 0.002;
+    e.diveProgress += 0.009 + stage * 0.001;
     var t = e.diveProgress;
     // 베지에 곡선으로 자연스러운 다이브
     var cx1 = e.diveStartX, cy1 = e.diveStartY - 100;
