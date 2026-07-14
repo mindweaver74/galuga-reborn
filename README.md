@@ -2,7 +2,7 @@
 
 > 클래식 고정화면 슈팅 게임의 짜릿함! 자동 발사로 쏟아지는 적을 격추하라!
 
-**▶ 지금 바로 플레이** → [https://mindweaver74.github.io/galuga-reborn](https://mindweaver74.github.io/galuga-reborn)
+**▶ 지금 바로 플레이** → [https://mindweaver74.github.io/cosmo-radar](https://mindweaver74.github.io/cosmo-radar)
 
 ---
 
